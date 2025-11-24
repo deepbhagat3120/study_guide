@@ -1,4 +1,4 @@
-pip install python-telegram-bot PyPDF2 google-genai
+!pip install python-telegram-bot PyPDF2 google-genai
 
 import os
 from telegram import Update
@@ -59,3 +59,4 @@ nest_asyncio.apply()
 
 import asyncio
 asyncio.run(main())
+
